@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can control pop up",
+        "description": "",
+        "id": ";verify-user-can-control-pop-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4855575200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open rediff application",
+            "match": {
+              "location": "StepClass.open_rediff_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1526254600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click signin",
+            "match": {
+              "location": "StepClass.click_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2080915700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter username",
+            "match": {
+              "location": "StepClass.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2363220200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click sign in",
+            "match": {
+              "location": "StepClass.click_sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "pop.feature"
+  }
+]
